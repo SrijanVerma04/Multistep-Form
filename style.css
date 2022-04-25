@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4    )),url(background.jpg);
+    background-image: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(background.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -14,7 +14,7 @@ body{
     width: 360px;
     height: 400px;
     margin: 8% auto;
-    background: #fff;
+    background: rgb(202, 190, 190);
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -23,7 +23,7 @@ body{
 h3{
     text-align: center;
     margin-bottom: 40px;
-    color: #777;
+    color: rgb(16, 14, 14);
 }
 
 .container form{
@@ -65,12 +65,12 @@ form button{
     cursor: pointer;   
 }
 
-#form2{
+#Form2{
     left: 450px;
 }
 
-#form3{
-    left: 450px;
+#Form3{
+    left: -450px;
 }
 
 .step-row{
@@ -79,27 +79,28 @@ form button{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    box-shadow: 0 -1px 5px -1px #000;
+    box-shadow: 0 -1px 5px -1px rgb(213, 45, 45);
     position: relative;
 }
 
-.step-col{
+#step-col{
     width: 120px;
     text-align: center;
-    color: #333;
+    color: rgb(217, 39, 39);
     position: relative;
+    
 }
 
 #progress{
      position: absolute;
      height: 100%;
      width: 120px;
-     background:linear-gradient(to right,#ff105f, #ffad06) ;
+     background:linear-gradient(to right,#8a4a5f, #ba9344) ;
      transition: 1s;
 }
 
 #progress::after{
-     content: '' ;
+     content: '';
      height: 0;
      width: 0;
      border-top: 20px solid transparent;
